@@ -1,0 +1,27 @@
+# Built ROMs, firmware images, and downloaded packages
+*.zip
+*.apk
+*.img
+*.dmg
+*.bin
+*.so
+*.dex
+*.odex
+*.vdex
+*.art
+*.o
+*.a
+
+# Local device captures and machine metadata
+research/device_props.txt
+research/sf_dump.txt
+**/.DS_Store
+
+# Temporary build outputs
+*.tmp
+__pycache__/
+*.py[cod]
+
+# Third-party kernel and audio module payloads
+/KSU-NEXT-AOSP-v4/
+/audio_mods/
